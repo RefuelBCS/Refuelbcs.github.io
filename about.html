@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Refuel BCS</title>
+  <link rel="icon" href="favicon.png?v=3" type="image/png">
+  <link rel="shortcut icon" href="favicon.png?v=3" type="image/png">
+  <link rel="apple-touch-icon" href="favicon.png?v=3">
+  <meta name="theme-color" content="#9f0f0f">
+
+  <meta name="description" content="Learn the story behind Refuel BCS, our mission, and our commitment to safe, convenient fuel delivery in the Brazos Valley." />
+  <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E2S9GVW276"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-E2S9GVW276');
+  </script>
+  <style>
+    /* Darker subtitle under Meet the Team (about page only) */
+    .strong-muted {
+      color: #444;
+    }
+  
+    /* Center + underline section titles */
+    .section-title {
+      text-align: center;
+      margin-bottom: 32px;
+      position: relative;
+    }
+  
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 3px;
+      background-color: var(--brand-red);
+      margin: 12px auto 0;
+    }
+  
+    /* Story card layout */
+    .story-card {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+  
+    .story-card p {
+      line-height: 1.7;
+    }
+  
+    .story-card p + p {
+      margin-top: 16px;
+    }
+  
+    /* Black card styling (bulletproof) */
+    .card.black-card {
+      background-color: #000 !important;
+      color: #fff;
+    }
+  
+    .card.black-card p {
+      color: #fff;
+    }
+  
+    .card.black-card .muted {
+      color: rgba(255, 255, 255, 0.75);
+    }
+    /* Our Values list with red checkmarks */
+    .values-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .values-list li {
+      position: relative;
+      padding: 14px 0 14px 30px;
+      border-bottom: 1px solid #eee;
+    }
+
+    .values-list li:last-child {
+      border-bottom: none;
+    }
+
+    .values-list li::before {
+      content: "✓";
+      position: absolute;
+      left: 0;
+      top: 16px;
+      color: var(--brand-red);
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .value-title {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .value-desc {
+      color: #666;
+      font-size: 0.95rem;
+    }
+
+  </style>
+  
+  
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Refuel BCS Home">
+        <img class="brand-logo" src="assets/logo.jpg" alt="Refuel BCS logo" />
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="is-active">About Refuel BCS</a>
+        <a href="interested.html">Interested?</a>
+      </nav>
+
+      <a class="btn btn-primary header-cta" href="interested.html">Get Fuel</a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="is-active">About Refuel BCS</a>
+      <a href="interested.html">Interested?</a>
+      <a class="btn btn-primary header-cta" href="interested.html">Get Fuel</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Hero -->
+    <section class="hero" id="top">
+      <div class="container">
+        <p class="pill">About Refuel BCS</p>
+        <h1>Built for busy days in the Brazos Valley.</h1>
+        <p class="subhead">
+          Refuel BCS is a mobile fuel delivery service designed to help you skip the gas station.
+          We’re focused on convenience, clear communication, and a smooth, professional experience.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="interested.html">Interested in the App?</a>
+          <a class="btn btn-ghost" href="#team">Meet the Team</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet the Team -->
+    <section class="section" id="team">
+      <div class="container">
+        <h2 class="section-title-line">Meet the Team</h2>
+
+        <!-- Founders group photo -->
+        <div class="founders-photo-wrap">
+          <div class="founders-photo-frame card">
+            <img
+              class="founders-photo"
+              src="assets/PatrickandChris.jpg"
+              alt="Refuel BCS founders standing together"
+            />
+          </div>
+        </div>
+
+        <!-- Combined team bio -->
+        <div class="card" style="max-width: 900px; margin: 32px auto 0;">
+          <p>
+            Refuel BCS was founded by <strong>Christopher Braly</strong> and <strong>Christopher Lamb</strong> , two lifelong
+            <strong>first responders</strong> with more than <strong> 50 years of combined emergency service experience</strong>.
+            With decades spent protecting and serving the Brazos Valley, they built Refuel BCS
+            on the same principles that guided their careers... <strong>safety</strong>, <strong>reliability</strong>, and <strong>trust</strong>.
+          </p>
+
+          <p class="muted">
+            By bringing fuel directly to homes, businesses, and job sites, Refuel BCS delivers
+            a safer, more convenient fueling solution that is proudly owned and operated right
+            here in the community it serves.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    
+    <!-- Our Story -->
+    <section class="section" id="our-story">
+      <div class="container">
+        <h2 class="section-title-line">Our Story</h2>
+
+        <div class="card black-card story-card">
+          <p>
+            Our story begins right here in the Brazos Valley. As local first responders,
+            we’ve spent our careers serving this community when it matters most—responding
+            to emergencies, protecting families, and helping neighbors through their toughest moments.
+            That experience shaped who we are and how we approach everything we do.
+          </p>
+
+          <p class="muted">
+            We started Refuel BCS to build a reputable, locally owned mobile fueling service
+            that people can truly count on. Too often, convenience comes at the cost of service
+            or accountability. We believe it doesn’t have to. By staying local, hiring responsibly,
+            and operating with integrity, our goal is to build long-term relationships with
+            individuals, families, and businesses throughout the Brazos Valley.
+          </p>
+
+          <p class="muted">
+            At its core, Refuel BCS is about safety and convenience. Whether you’re fueling a
+            personal vehicle, equipment, generators, or a fleet, traveling to a gas station
+            isn’t always practical—or safe. By bringing fuel directly to you, we help reduce
+            unnecessary trips, time away from work or family, and exposure to late-night or
+            roadside fueling risks.
+          </p>
+
+          <p class="muted">
+            This business isn’t just about delivering fuel. It’s about continuing to serve
+            our neighbors with the same professionalism, reliability, and commitment that
+            guided our years in public service—now in a new way, one delivery at a time.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    <!-- 3) Our Mission and Values -->
+    <section class="section" id="mission-values">
+      <div class="container">
+        <h2 class="section-title-line">Our Mission & Values</h2>
+        <p class="muted">What we’re building — and what guides how we operate.</p>
+
+        <div class="grid-2">
+          <div class="card">
+            <h3>Our Mission</h3>
+            <p class="muted" style="margin:0;">
+              Our mission is to make refueling as simple and stress-free as possible by delivering fuel
+              directly to where vehicles are parked. We aim to remove unnecessary stops, save time, and
+              help customers stay focused on their day—whether they’re managing busy schedules, caring
+              for family, or running a business.
+            </p>
+          
+            <p class="muted" style="margin:12px 0 0;">
+              Refuel BCS is built around consistency, professionalism, and clear communication. From the
+              moment a request is made to the completion of service, our goal is to provide a smooth,
+              reliable experience that customers can trust and comfortably use again.
+            </p>
+          </div>
+          
+
+          <div class="card">
+            <h3>Our Values</h3>
+            <ul class="values-list">
+              <li>
+                <span class="value-title">Safety-first</span>
+                <span class="value-desc">We follow a consistent process and put safety ahead of speed.</span>
+              </li>
+              <li>
+                <span class="value-title">Clear communication</span>
+                <span class="value-desc">Customers should always know what to expect and when.</span>
+              </li>
+              <li>
+                <span class="value-title">Respect your time</span>
+                <span class="value-desc">We’re built to reduce friction—not add more steps.</span>
+              </li>
+              <li>
+                <span class="value-title">Professional service</span>
+                <span class="value-desc">Clean, courteous, and reliable delivery every time.</span>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4) Commitment to Safety and Standards -->
+    <section class="section alt" id="safety">
+      <div class="container">
+        <h2 class="section-title-line">Commitment to Safety & Standards</h2>
+        <p class="muted">
+          Mobile refueling should feel just as responsible as it is convenient. Our approach is built around
+          consistency, safe handling, and clear expectations.
+        </p>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Consistent process</h3>
+            <p class="muted" style="margin:0;">
+              We use a repeatable step-by-step workflow for each delivery—confirming location details, verifying the
+              request, and completing service with a clean finish and confirmation.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Safe delivery practices</h3>
+            <p class="muted" style="margin:0;">
+              Deliveries are performed with an emphasis on safety at every step—proper positioning, attention to the
+              environment, and careful handling to reduce risk and maintain a professional standard.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Customer clarity</h3>
+            <p class="muted" style="margin:0;">
+              We keep expectations simple and transparent—what’s needed, where service can occur, and how customers
+              can reach us if anything changes.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <p class="muted" style="margin:0;">
+            As Refuel BCS grows, we’ll continue refining training, equipment readiness, and documented procedures to
+            keep the experience consistent and trustworthy.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5) Local Commitment + Service Area + CTA -->
+    <section class="section" id="local">
+      <div class="container">
+        <h2 class="section-title-line">Local Commitment</h2>
+        <p class="muted">
+          We’re building Refuel BCS with a local-first mindset—serving the Brazos Valley well, listening to customers,
+          and improving the experience over time.
+        </p>
+
+        <div class="card">
+          <h3>Serving our community</h3>
+          <p class="muted" style="margin:0;">
+            Refuel BCS is committed to serving the Brazos Valley with a local-first mindset. We believe
+            great service comes from understanding the needs of the community we operate in and showing
+            up consistently with professionalism and care.
+          </p>
+        
+          <p class="muted" style="margin:12px 0 0;">
+            Our focus is on building long-term trust through dependable service, clear expectations,
+            and responsiveness. As we grow, we plan to listen closely to customer feedback and continue
+            improving the experience to better serve individuals, families, and local businesses
+            throughout the area.
+          </p>
+        </div>
+        
+
+          <div class="card">
+            <h3>Service Area</h3>
+            <p class="muted" style="margin:0;">
+              We currently focus on <strong>College Station</strong>, <strong>Bryan</strong>, and nearby <strong> Brazos Valley areas</strong>.
+              Coverage and availability will expand based on demand and operational readiness.
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px;">
+          <h3 style="margin:0 0 10px;">Ready to learn more?</h3>
+          <p class="muted" style="margin:0 0 14px;">
+            Visit the Interested page to see app availability details, download info, and what to expect as we launch.
+          </p>
+          <div class="contact-actions dark-cta">
+            <a class="btn btn-primary" href="interested.html">Interested?</a>
+            <a class="btn btn-outline" href="index.html#faq">Read the FAQ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Refuel BCS. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // mobile nav toggle
+    const btn = document.querySelector(".nav-toggle");
+    const mobileNav = document.getElementById("mobileNav");
+
+    btn.addEventListener("click", () => {
+      const isOpen = mobileNav.classList.toggle("open");
+      btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    // close mobile nav on click
+    mobileNav.querySelectorAll("a").forEach(a => {
+      a.addEventListener("click", () => mobileNav.classList.remove("open"));
+    });
+  </script>
+</body>
+</html>
